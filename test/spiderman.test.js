@@ -1,5 +1,5 @@
-describe("test suite dummy description", ()=>{
-    TextDecoderStream('case 1 dummy',()=>{
+describe("Unit Test for spiderman class", ()=>{
+    test('1) Create an spiderman object',()=>{
         const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
 
         expect(andrewGarfield.name).toBe("Spiderman Sony")
