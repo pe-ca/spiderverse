@@ -12,7 +12,7 @@ describe("Unit Test for spiderman class", ()=>{
     })
 
     test('2) Use the method get info', ()=>{
-        const tomHolland = new Spiderman("Spiderman Marver", 25, "Tom Holland", 5, "Marver")
+        const tomHolland = new Spiderman("Spiderman Marver", 25, "Tom Holland", 5, "Marvel")
 
         expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
     })
